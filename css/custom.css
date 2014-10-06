@@ -1,0 +1,55 @@
+video#bgvideo {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: 100%; 
+	height: auto; 
+	z-index: -100;
+	background: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header#mainheader {
+	background: transparent;
+	color: white;
+}
+
+footer {
+	background-color: white;
+}
+
+header#mainheader h1, h2 {
+	color: white;
+}
+
+.active a {
+	background:	#00cc9a; 
+	color: #FFF;
+}
+
+ul.flyout li a, .nav-bar li ul li a:hover { 
+	background: #009973; 
+	color:#FFF; 
+	border: 0; 
+	font-size: 16px;
+}
+
+#txtdial {
+	opacity: .5;
+	color: black;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+#lyrics-container {
+	margin-top: 600px;
+}
+
+h2#lyrics-container {
+	font-weight: bold;
+}
